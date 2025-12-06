@@ -2,6 +2,9 @@ export interface Recipient {
   no: number;
   nama: string;
   pbp: string;
+  alamat: string;
+  tanggal_lahir: string;
+  jenis_kelamin: string;
 }
 
 export interface PaginationProps {
